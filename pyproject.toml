@@ -6,7 +6,10 @@ readme = "README.md"
 authors = [{ name = "IBM Corp." }]
 requires-python = ">=3.11,<4.0"
 dependencies = [
-    "agentstack-sdk==0.4.1",
+    "agentstack-sdk",
+    "cachetools>=7.0.1",
+    "httpx>=0.28.1",
+    "openai>=2.24.0",
     "pyyaml>=6.0.2",
 ]
 
